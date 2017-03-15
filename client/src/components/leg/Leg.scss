@@ -1,0 +1,36 @@
+@import "~bpk-mixins";
+
+.leg {
+  padding: 0.5rem;
+  img {
+    height: 32px;
+    border-radius: 4px;
+    margin: 0 0.8rem 0.5rem 0;
+  }
+  p {
+    margin: 0;
+  }
+  .leg-details {
+    .leg-details-dep, .leg-details-arr, .leg-duration {
+      display: inline-block;
+      width: 20%;
+    }
+    .leg-details-dep, .leg-details-arr {
+      p {
+        color: $bpk-color-gray-200;
+      }
+    }
+    .leg-duration {
+      float: right;
+      .time {
+        color: $bpk-color-gray-200;
+      }
+    }
+  }
+  .segments {
+    color: $bpk-color-green-500;
+    &.stops {
+      color: $bpk-color-red-500;
+    }
+  }
+}

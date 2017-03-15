@@ -1,0 +1,20 @@
+@import "~bpk-mixins";
+
+.summary {
+  background-color: $bpk-color-blue-600;
+  color: $bpk-color-white;
+  padding: 1rem 0 0.5rem 1rem;
+  header {
+    font-size: 2rem;
+    span {
+      padding: 0.5rem;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+  p {
+    margin: 0;
+    color: $bpk-color-gray-50;
+  }
+}

@@ -1,0 +1,19 @@
+@import "~bpk-mixins";
+
+.itinerary {
+  margin: 1rem;
+  .price-and-cta {
+    padding: 1rem 0.5rem 0;
+    span {
+      font-size: 2rem;
+    }
+    p {
+      margin: 0;
+      color: $bpk-color-gray-200;
+    }
+    button {
+      margin-top: 0.8rem;
+      float: right;
+    }
+  }
+}

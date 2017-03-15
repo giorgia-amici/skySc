@@ -1,0 +1,15 @@
+@import "~bpk-mixins";
+
+.refine-search {
+  padding: 1rem;
+  color: $bpk-color-blue-600;
+  background: $bpk-color-white;
+  span {
+    margin-right: 1rem;
+  }
+  .price-alerts {
+    display: inline-block;
+    float: right;
+    margin-right: 0.5rem;
+  }
+}
